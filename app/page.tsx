@@ -1,0 +1,258 @@
+export default function KardialeBildgebungLandingPage() {
+  return (
+    <div className="min-h-screen bg-white text-neutral-800">
+      {/* Navigation */}
+      <header className="border-b border-neutral-200 bg-white sticky top-0 z-50">
+        <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+          <div>
+            <h1 className="text-3xl font-serif text-slate-900">
+              Dr. med. Giancarlo Spano
+            </h1>
+            <p className="text-sm tracking-[0.2em] uppercase text-sky-700 mt-1">
+              Kardiologie & Kardiale Bildgebung
+            </p>
+          </div>
+
+          <nav className="hidden md:flex items-center gap-10 text-sm">
+            <a href="#startseite" className="hover:text-sky-700 transition-colors">
+              Startseite
+            </a>
+            <a href="#bildgebung" className="hover:text-sky-700 transition-colors">
+              Kardiale Bildgebung
+            </a>
+            <a href="#kardiologie" className="hover:text-sky-700 transition-colors">
+              Kardiologie
+            </a>
+            <a href="#ueber-mich" className="hover:text-sky-700 transition-colors">
+              Über mich
+            </a>
+            <a href="#standorte" className="hover:text-sky-700 transition-colors">
+              Standorte
+            </a>
+            <a href="#kontakt" className="hover:text-sky-700 transition-colors">
+              Kontakt
+            </a>
+
+            <a
+              href="https://www.kardiologie-aarezentrum.ch"
+              target="_blank"
+              className="border border-sky-700 text-sky-700 px-4 py-2 rounded-full hover:bg-sky-700 hover:text-white transition-all"
+            >
+              Aarezentrum ↗
+            </a>
+          </nav>
+        </div>
+      </header>
+
+      {/* Intro Section */}
+      <section id="startseite" className="scroll-mt-32" className="max-w-7xl mx-auto px-4 md:px-6 py-16 md:py-20 grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-20 items-center">
+        <div>
+          <img
+            src="/giancarlo-spano.jpg"
+            alt="Dr. med. Giancarlo Spano"
+            className="w-full max-w-md mx-auto lg:max-w-full rounded-sm object-cover shadow-sm"
+          />
+        </div>
+
+        <div>
+          <h2 className="text-4xl md:text-6xl leading-tight font-serif text-slate-900 mb-6">
+            Dr. med. Giancarlo Spano
+          </h2>
+
+          <p className="text-xl md:text-2xl text-sky-700 mb-8 md:mb-10">
+            Facharzt für Kardiologie
+          </p>
+
+          <div className="space-y-6 text-base md:text-lg leading-7 md:leading-8 text-neutral-700">
+            <p>
+              Dr. med. Giancarlo Spano ist Facharzt für Kardiologie mit besonderem Schwerpunkt auf moderner kardialer Bildgebung.
+            </p>
+
+            <p>
+              Seine klinische Tätigkeit umfasst die umfassende Betreuung kardiologischer Patientinnen und Patienten sowie die Durchführung und Befundung fortschrittlicher kardialer CT- und MRT-Untersuchungen.
+            </p>
+
+            <p>
+              Die Verbindung von klinischer Kardiologie und hochpräziser Bildgebung steht dabei im Zentrum seiner Tätigkeit.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Kardiale Bildgebung */}
+      <section id="bildgebung" className="scroll-mt-32 bg-neutral-50 py-16 md:py-24 border-y border-neutral-200" className="bg-neutral-50 py-16 md:py-16 md:py-24 border-y border-neutral-200">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center max-w-4xl mx-auto mb-20">
+            <h3 className="text-3xl md:text-5xl font-serif text-slate-900 mb-6 md:mb-8">
+              Kardiale Bildgebung
+            </h3>
+
+            <p className="text-base md:text-lg leading-7 md:leading-8 text-neutral-700">
+              Die moderne kardiale Bildgebung ermöglicht eine präzise und nicht invasive Beurteilung verschiedener Herz- und Kreislauferkrankungen.
+            </p>
+
+            <p className="text-base md:text-lg leading-7 md:leading-8 text-neutral-700 mt-6">
+              Die Untersuchungen werden persönlich durch Dr. med. Giancarlo Spano durchgeführt am Spital Thun sowie am Hôpital neuchâtelois in Neuchâtel in enger Zusammenarbeit mit den jeweiligen radiologischen Instituten.
+            </p>
+
+            <p className="text-base md:text-lg leading-7 md:leading-8 text-neutral-700 mt-6">
+              Dabei steht die spezialisierte kardiologische Beurteilung stets im Vordergrund.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-20">
+            <div className="bg-white p-6 md:p-6 md:p-10 rounded-3xl shadow-sm border border-neutral-100">
+              <h4 className="text-2xl md:text-3xl font-serif text-sky-700 mb-6 md:mb-8">
+                Kardiale CT
+              </h4>
+
+              <p className="text-neutral-700 leading-8 mb-6">
+                Die kardiale Computertomographie ermöglicht eine hochpräzise Darstellung der Herzkranzgefässe.
+              </p>
+
+              <ul className="space-y-3 text-neutral-700 leading-7 list-disc pl-5">
+                <li>Ausschluss relevanter Koronarverengungen</li>
+                <li>Beurteilung koronarer Kalkablagerungen</li>
+                <li>Nicht invasive Abklärung von Brustschmerzen</li>
+                <li>Hohe diagnostische Genauigkeit</li>
+              </ul>
+            </div>
+
+            <div className="bg-white p-6 md:p-6 md:p-10 rounded-3xl shadow-sm border border-neutral-100">
+              <h4 className="text-2xl md:text-3xl font-serif text-sky-700 mb-6 md:mb-8">
+                Kardiale MRT
+              </h4>
+
+              <p className="text-neutral-700 leading-8 mb-6">
+                Die kardiale Magnetresonanztomographie erlaubt eine detaillierte Analyse der Herzfunktion und des Herzmuskels.
+              </p>
+
+              <ul className="space-y-3 text-neutral-700 leading-7 list-disc pl-5">
+                <li>Kardiomyopathien</li>
+                <li>Myokarditis</li>
+                <li>Herzinsuffizienz</li>
+                <li>Keine Strahlenbelastung</li>
+                <li>Präzise funktionelle Analyse</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Kardiologie */}
+      <section id="kardiologie" className="scroll-mt-32 py-16 md:py-24" className="py-16 md:py-24">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center max-w-4xl mx-auto mb-20">
+            <h3 className="text-3xl md:text-5xl font-serif text-slate-900 mb-6 md:mb-8">
+              Kardiologie in Thun
+            </h3>
+
+            <p className="text-base md:text-lg leading-7 md:leading-8 text-neutral-700">
+              Im Kardiologie Aarezentrum in Thun bietet Dr. med. Giancarlo Spano ein breites Spektrum moderner kardiologischer Diagnostik und Betreuung an.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            {[
+              'Konsiliarische Beratungen',
+              'Check-up und Prävention',
+              'Verlaufskontrollen bei Herzerkrankungen',
+              'Nachkontrollen nach Herzoperationen',
+              'Präoperative kardiologische Abklärungen',
+              'Echokardiographie inkl. Doppler und Strain',
+              'Transösophageale Echokardiographie',
+              'Ruhe- und Belastungs-EKG',
+              'Abklärung von Herzrhythmusstörungen',
+              '24-Stunden-Blutdruckmessung',
+              'Kontrolle von Schrittmachern und ICD',
+              'Herzinsuffizienz-Sprechstunde/Beratung',
+            ].map((item) => (
+              <div
+                key={item}
+                className="border border-neutral-200 rounded-3xl p-6 md:p-8 hover:border-sky-300 transition-all"
+              >
+                <p className="text-base md:text-lg leading-7 text-neutral-800">{item}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Standorte */}
+      <section id="standorte" className="scroll-mt-32 bg-neutral-50 py-16 md:py-24 border-y border-neutral-200" className="bg-neutral-50 py-16 md:py-16 md:py-24 border-y border-neutral-200">
+        <div className="max-w-7xl mx-auto px-6">
+          <h3 className="text-5xl font-serif text-center text-slate-900 mb-20">
+            Standorte
+          </h3>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10">
+            <div className="bg-white p-6 md:p-10 rounded-3xl border border-neutral-100 shadow-sm">
+              <h4 className="text-xl md:text-2xl font-serif text-slate-900 mb-4">Thun</h4>
+              <p className="text-neutral-700 leading-7">
+                Kardiologie Aarezentrum
+              </p>
+            </div>
+
+            <div className="bg-white p-6 md:p-10 rounded-3xl border border-neutral-100 shadow-sm">
+              <h4 className="text-xl md:text-2xl font-serif text-slate-900 mb-4">Spital Thun</h4>
+              <p className="text-neutral-700 leading-7">
+                Kardiale CT- und MRT-Bildgebung
+              </p>
+            </div>
+
+            <div className="bg-white p-6 md:p-10 rounded-3xl border border-neutral-100 shadow-sm">
+              <h4 className="text-xl md:text-2xl font-serif text-slate-900 mb-4">Neuchâtel</h4>
+              <p className="text-neutral-700 leading-7">
+                Kardiale CT- und MRT-Bildgebung
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact */}
+      <section id="kontakt" className="scroll-mt-32 py-16 md:py-24" className="py-16 md:py-24">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <h3 className="text-5xl font-serif text-slate-900 mb-10">
+            Kontakt
+          </h3>
+
+          <p className="text-base md:text-lg leading-7 md:leading-8 text-neutral-700 mb-10">
+            Für Terminvereinbarungen oder weitere Informationen freuen wir uns über Ihre Kontaktaufnahme.
+          </p>
+<p className="text-lg text-neutral-800 mb-10">
+  Telefon: +41 33 223 04 48
+</p>
+          <div className="flex flex-col md:flex-row gap-4 md:gap-6 justify-center">
+            <a
+              href="mailto:info@kardiale-bildgebung.ch"
+              className="px-6 md:px-8 py-4 bg-sky-700 text-white rounded-full hover:bg-sky-800 transition-all"
+            >
+              E-Mail senden
+            </a>
+
+            <a
+              href="https://www.kardiologie-aarezentrum.ch"
+              target="_blank"
+              className="px-6 md:px-8 py-4 border border-sky-700 text-sky-700 rounded-full hover:bg-sky-700 hover:text-white transition-all"
+            >
+              Kardiologie Aarezentrum besuchen
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="border-t border-neutral-200 py-10">
+        <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-neutral-500">
+          <p>© 2026 Dr. med. Giancarlo Spano</p>
+
+          <div className="flex gap-6">
+            <a href="#">Impressum</a>
+            <a href="#">Datenschutz</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  )
+}
