@@ -23,7 +23,7 @@ export default function KardialeBildgebungLandingPage() {
             <a href="#kardiologie" className="hover:text-sky-700 transition-colors">
               Kardiologie
             </a>
-            <a href="#ueber-mich" className="hover:text-sky-700 transition-colors">
+            <a href="#werdegang" className="hover:text-sky-700 transition-colors">
               Über mich
             </a>
             <a href="#standorte" className="hover:text-sky-700 transition-colors">
@@ -45,7 +45,10 @@ export default function KardialeBildgebungLandingPage() {
       </header>
 
       {/* Intro Section */}
-      <section id="startseite" className="scroll-mt-32" className="max-w-7xl mx-auto px-4 md:px-6 py-16 md:py-20 grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-20 items-center">
+      <section 
+  id="startseite"
+  className="scroll-mt-32 max-w-7xl mx-auto px-4 md:px-6 py-16 md:py-20 grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-20 items-center"
+>
         <div>
           <img
             src="/giancarlo-spano.jpg"
@@ -55,12 +58,12 @@ export default function KardialeBildgebungLandingPage() {
         </div>
 
         <div>
-          <h2 className="text-4xl md:text-6xl leading-tight font-serif text-slate-900 mb-6">
+          <h2 className="text-3xl md:text-5xl leading-tight font-serif text-slate-900 mb-6">
             Dr. med. Giancarlo Spano
           </h2>
 
           <p className="text-xl md:text-2xl text-sky-700 mb-8 md:mb-10">
-            Facharzt für Kardiologie
+            Facharzt für Kardiologie und Innere Medizin FMH
           </p>
 
           <div className="space-y-6 text-base md:text-lg leading-7 md:leading-8 text-neutral-700">
@@ -78,9 +81,45 @@ export default function KardialeBildgebungLandingPage() {
           </div>
         </div>
       </section>
+{/* Sprachkenntnisse */}
+<section id="sprachen" className="scroll-mt-40 py-16 md:py-20 bg-white">
+  <div className="max-w-5xl mx-auto px-6">
+    <h3 className="text-3xl md:text-4xl font-serif text-slate-900 mb-10 text-center">
+      Sprachkenntnisse
+    </h3>
 
+    <div className="grid md:grid-cols-2 gap-6">
+      <div className="border border-neutral-200 rounded-2xl p-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          Deutsch 
+        </p>
+      </div>
+
+      <div className="border border-neutral-200 rounded-2xl p-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          Französisch 
+        </p>
+      </div>
+
+      <div className="border border-neutral-200 rounded-2xl p-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          Italienisch 
+        </p>
+      </div>
+
+      <div className="border border-neutral-200 rounded-2xl p-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          Englisch 
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
       {/* Kardiale Bildgebung */}
-      <section id="bildgebung" className="scroll-mt-32 bg-neutral-50 py-16 md:py-24 border-y border-neutral-200" className="bg-neutral-50 py-16 md:py-16 md:py-24 border-y border-neutral-200">
+      <section 
+  id="bildgebung"
+  className="scroll-mt-10 bg-neutral-50 py-16 md:py-24 border-y border-neutral-200"
+>
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-4xl mx-auto mb-20">
             <h3 className="text-3xl md:text-5xl font-serif text-slate-900 mb-6 md:mb-8">
@@ -96,7 +135,7 @@ export default function KardialeBildgebungLandingPage() {
             </p>
 
             <p className="text-base md:text-lg leading-7 md:leading-8 text-neutral-700 mt-6">
-              Dabei steht die spezialisierte kardiologische Beurteilung stets im Vordergrund.
+             
             </p>
           </div>
 
@@ -140,7 +179,7 @@ export default function KardialeBildgebungLandingPage() {
       </section>
 
       {/* Kardiologie */}
-      <section id="kardiologie" className="scroll-mt-32 py-16 md:py-24" className="py-16 md:py-24">
+      <section id="kardiologie" className="scroll-mt-10 py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-4xl mx-auto mb-20">
             <h3 className="text-3xl md:text-5xl font-serif text-slate-900 mb-6 md:mb-8">
@@ -177,9 +216,229 @@ export default function KardialeBildgebungLandingPage() {
           </div>
         </div>
       </section>
+{/* Beruflicher Werdegang */}
+<section
+  id="werdegang"
+  className="scroll-mt-5 bg-neutral-50 py-16 md:py-24 border-y border-neutral-200"
+>
+  <div className="max-w-5xl mx-auto px-6">
+    <div className="text-center mb-16">
+      <h3 className="text-3xl md:text-5xl font-serif text-slate-900 mb-6">
+        Beruflicher Werdegang
+      </h3>
 
+      <p className="text-lg text-slate-600 leading-relaxed">
+        Klinische Tätigkeit und Spezialisierung im Bereich der allgemeinen
+        Kardiologie und kardialen Bildgebung.
+      </p>
+    </div>
+
+    <div className="space-y-8">
+
+      <div className="border-l-2 border-red-700 pl-6">
+        <p className="text-red-700 font-semibold">seit 2026</p>
+        <p className="text-slate-800 leading-relaxed">
+          Herzspezialist in der Praxis Kardiologie Aarezentrum, Thun
+        </p>
+      </div>
+
+      <div className="border-l-2 border-red-700 pl-6">
+        <p className="text-red-700 font-semibold">seit 2024</p>
+        <p className="text-slate-800 leading-relaxed">
+          Leitender Arzt Kardiologie, Schwerpunkt Kardiale Bildgebung,
+          Spital STS AG Thun, Schweiz
+        </p>
+      </div>
+
+      <div className="border-l-2 border-red-700 pl-6">
+        <p className="text-red-700 font-semibold">seit 2024</p>
+        <p className="text-slate-800 leading-relaxed">
+          Leitender Arzt Kardiologie, Kantonsspital Neuenburg, Schweiz
+        </p>
+      </div>
+
+      <div className="border-l-2 border-red-700 pl-6">
+        <p className="text-red-700 font-semibold">2023 – 2026</p>
+        <p className="text-slate-800 leading-relaxed">
+          Oberarzt, Universitätsklinik für Kardiologie,
+          Inselspital Bern, Schweiz
+        </p>
+      </div>
+
+      <div className="border-l-2 border-red-700 pl-6">
+        <p className="text-red-700 font-semibold">2021 – 2023</p>
+        <p className="text-slate-800 leading-relaxed">
+          Oberarzt Kardiologie, Schwerpunkt Kardiale Bildgebung,
+          Spital STS AG Thun, Schweiz
+        </p>
+      </div>
+
+      <div className="border-l-2 border-red-700 pl-6">
+        <p className="text-red-700 font-semibold">2020 – 2023</p>
+        <p className="text-slate-800 leading-relaxed">
+          Stv. Oberarzt, Universitätsklinik für Kardiologie,
+          Inselspital Bern, Schweiz
+        </p>
+      </div>
+
+      <div className="pt-6">
+        <h4 className="text-2xl font-serif text-slate-900 mb-6">
+          Assistenzarzt
+        </h4>
+      </div>
+
+      <div className="border-l-2 border-red-700 pl-6">
+        <p className="text-red-700 font-semibold">2017 – 2020</p>
+        <p className="text-slate-800 leading-relaxed">
+          Universitätsklinik für Kardiologie,
+          Inselspital Bern, Schweiz
+        </p>
+      </div>
+
+      <div className="border-l-2 border-red-700 pl-6">
+        <p className="text-red-700 font-semibold">2015 – 2017</p>
+        <p className="text-slate-800 leading-relaxed">
+          Allgemeine Innere Medizin,
+          Universitätsspital CHUV Lausanne, Schweiz
+        </p>
+      </div>
+
+      <div className="border-l-2 border-red-700 pl-6">
+        <p className="text-red-700 font-semibold">2013 – 2015</p>
+        <p className="text-slate-800 leading-relaxed">
+          Allgemeine Innere Medizin,
+          Ensemble hospitalier de la Côte, Morges, Schweiz
+        </p>
+      </div>
+
+      <div className="border-l-2 border-red-700 pl-6">
+        <p className="text-red-700 font-semibold">2013</p>
+        <p className="text-slate-800 leading-relaxed">
+          Allgemeine Innere Medizin,
+          Kantonspital Jura, Delémont, Schweiz
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{/* Studium und Weiterbildung */}
+<section
+  id="weiterbildung"
+  className="scroll-mt-32 py-16 md:py-24"
+>
+  <div className="max-w-5xl mx-auto px-6">
+
+    <div className="text-center mb-16">
+      <h3 className="text-3xl md:text-5xl font-serif text-slate-900 mb-6">
+        Studium und Weiterbildung
+      </h3>
+    </div>
+
+    <div className="space-y-6">
+
+      <div className="flex flex-col md:flex-row gap-4 border-b border-neutral-200 pb-6">
+        <span className="text-red-700 font-semibold md:min-w-[90px]">
+          2024
+        </span>
+        <p className="text-slate-700">
+          EACVI Certification Cardiac CT Level III, Europa
+        </p>
+      </div>
+
+      <div className="flex flex-col md:flex-row gap-4 border-b border-neutral-200 pb-6">
+        <span className="text-red-700 font-semibold md:min-w-[90px]">
+          2024
+        </span>
+        <p className="text-slate-700">
+          EACVI Certification Cardiac MRI Level III, Europa
+        </p>
+      </div>
+
+      <div className="flex flex-col md:flex-row gap-4 border-b border-neutral-200 pb-6">
+        <span className="text-red-700 font-semibold md:min-w-[90px]">
+          2023
+        </span>
+        <p className="text-slate-700">
+          Doktor der Medizin, Medizinische Fakultät,
+          Universität Bern, Schweiz
+        </p>
+      </div>
+
+      <div className="flex flex-col md:flex-row gap-4 border-b border-neutral-200 pb-6">
+        <span className="text-red-700 font-semibold md:min-w-[90px]">
+          2023
+        </span>
+        <p className="text-slate-700">
+          Allgemeine Innere Medizin,
+          eidgenössischer Facharzttitel (FMH), Schweiz
+        </p>
+      </div>
+
+      <div className="flex flex-col md:flex-row gap-4 border-b border-neutral-200 pb-6">
+        <span className="text-red-700 font-semibold md:min-w-[90px]">
+          2021
+        </span>
+        <p className="text-slate-700">
+          Kardiologie,
+          eidgenössischer Facharzttitel (FMH), Schweiz
+        </p>
+      </div>
+
+      <div className="flex flex-col md:flex-row gap-4 border-b border-neutral-200 pb-6">
+        <span className="text-red-700 font-semibold md:min-w-[90px]">
+          2012
+        </span>
+        <p className="text-slate-700">
+          Eidgenössisches Diplom Humanmedizin, Schweiz
+        </p>
+      </div>
+
+      <div className="flex flex-col md:flex-row gap-4 border-b border-neutral-200 pb-6">
+        <span className="text-red-700 font-semibold md:min-w-[90px]">
+          2011
+        </span>
+        <p className="text-slate-700">
+          Master an der Universität Lausanne,
+          Fachbereich Medizin, Schweiz
+        </p>
+      </div>
+
+      <div className="flex flex-col md:flex-row gap-4">
+        <span className="text-red-700 font-semibold md:min-w-[90px]">
+          2009
+        </span>
+        <p className="text-slate-700">
+          Bachelor an der Universität Lausanne,
+          Fachbereich Medizin, Schweiz
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{/* Mitgliedschaften */}
+<section
+  id="mitgliedschaften"
+  className="scroll-mt-32 bg-neutral-50 py-16 md:py-20 border-y border-neutral-200"
+>
+  <div className="max-w-4xl mx-auto px-6 text-center">
+
+    <h3 className="text-3xl md:text-4xl font-serif text-slate-900 mb-10">
+      Mitgliedschaften
+    </h3>
+
+    <div className="space-y-4 text-lg text-slate-700">
+      <p>Swiss Medical Association (FMH)</p>
+      <p>Swiss Society of Cardiology (SGK)</p>
+      <p>European Society of Cardiology (ESC)</p>
+    </div>
+
+  </div>
+</section>
       {/* Standorte */}
-      <section id="standorte" className="scroll-mt-32 bg-neutral-50 py-16 md:py-24 border-y border-neutral-200" className="bg-neutral-50 py-16 md:py-16 md:py-24 border-y border-neutral-200">
+      <section id="standorte" className="scroll-mt-18 bg-neutral-50 py-16 md:py-24 border-y border-neutral-200">
         <div className="max-w-7xl mx-auto px-6">
           <h3 className="text-5xl font-serif text-center text-slate-900 mb-20">
             Standorte
@@ -211,7 +470,7 @@ export default function KardialeBildgebungLandingPage() {
       </section>
 
       {/* Contact */}
-      <section id="kontakt" className="scroll-mt-32 py-16 md:py-24" className="py-16 md:py-24">
+      <section id="kontakt" className="scroll-mt-32 py-16 md:py-24"> 
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h3 className="text-5xl font-serif text-slate-900 mb-10">
             Kontakt
