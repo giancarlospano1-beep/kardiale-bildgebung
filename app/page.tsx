@@ -1,4 +1,4 @@
-export default function KardialeBildgebungLandingPage() {
+export default function Home() {
   return (
     <div className="min-h-screen bg-white text-neutral-800">
       {/* Navigation */}
