@@ -1,4 +1,12 @@
+"use client";
+
+import { useState } from "react";
+import Image from "next/image";
+
 export default function Home() {
+
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className="min-h-screen bg-white text-neutral-800">
       {/* Navigation */}
@@ -41,7 +49,40 @@ export default function Home() {
               Aarezentrum ↗
             </a>
           </nav>
+          <button
+  onClick={() => setMenuOpen(!menuOpen)}
+  className="md:hidden flex flex-col gap-1"
+>
+  <span className="w-6 h-[2px] bg-slate-900"></span>
+  <span className="w-6 h-[2px] bg-slate-900"></span>
+  <span className="w-6 h-[2px] bg-slate-900"></span>
+</button>
         </div>
+        {menuOpen && (
+  <div className="md:hidden bg-white border-t border-neutral-200 px-6 py-6 flex flex-col gap-6 text-lg text-slate-800">
+
+    <a href="#startseite" onClick={() => setMenuOpen(false)}>
+      Startseite
+    </a>
+
+    <a href="#bildgebung" onClick={() => setMenuOpen(false)}>
+      Kardiale Bildgebung
+    </a>
+
+    <a href="#kardiologie" onClick={() => setMenuOpen(false)}>
+      Kardiologie
+    </a>
+
+    <a href="#werdegang" onClick={() => setMenuOpen(false)}>
+      Über mich
+    </a>
+
+    <a href="#kontakt" onClick={() => setMenuOpen(false)}>
+      Kontakt
+    </a>
+
+  </div>
+)}
       </header>
 
       {/* Intro Section */}
