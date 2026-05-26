@@ -460,7 +460,7 @@ export default function Home() {
             </div>
 
             <div className="bg-white p-6 md:p-10 rounded-3xl border border-neutral-100 shadow-sm">
-              <h4 className="text-xl md:text-2xl font-serif text-slate-900 mb-4">Neuchâtel</h4>
+              <h4 className="text-xl md:text-2xl font-serif text-slate-900 mb-4">Neuchâtel-RHNe</h4>
               <p className="text-neutral-700 leading-7">
                 Kardiale CT- und MRT-Bildgebung
               </p>
