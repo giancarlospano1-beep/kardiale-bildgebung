@@ -21,7 +21,7 @@ export default function Home() {
             </p>
           </div>
 
-          <nav className="hidden md:flex items-center gap-10 text-sm">
+          <nav className="hidden md:flex items-center gap-8 text-sm">
             <a href="#startseite" className="hover:text-sky-700 transition-colors">
               Startseite
             </a>
@@ -41,13 +41,32 @@ export default function Home() {
               Kontakt
             </a>
 
-            <a
-              href="https://www.kardiologie-aarezentrum.ch"
-              target="_blank"
-              className="border border-sky-700 text-sky-700 px-4 py-2 rounded-full hover:bg-sky-700 hover:text-white transition-all"
-            >
-              Aarezentrum ↗
-            </a>
+           <div className="flex items-center gap-2 text-sm">
+  <a href="/" className="hover:text-sky-700 transition-colors font-medium">
+    DE
+  </a>
+
+  <span className="text-neutral-300">|</span>
+
+  <a href="/fr" className="hover:text-sky-700 transition-colors">
+    FR
+  </a>
+
+  <span className="text-neutral-300">|</span>
+
+  <a href="/it" className="hover:text-sky-700 transition-colors">
+    IT
+  </a>
+</div>
+
+<a
+  href="https://www.kardiologie-aarezentrum.ch"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="border border-sky-700 text-sky-700 px-4 py-2 rounded-full hover:bg-sky-700 hover:text-white transition-all"
+>
+  Aarezentrum ↗
+</a>
           </nav>
           <button
   onClick={() => setMenuOpen(!menuOpen)}
