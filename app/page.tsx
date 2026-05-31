@@ -525,7 +525,7 @@ export default function Home() {
 </p>
           <div className="flex flex-col md:flex-row gap-4 md:gap-6 justify-center">
             <a
-              href="mailto:info@kardiale-bildgebung.ch"
+              href="mailto:giancarlo.spano@hin.ch"
               className="px-6 md:px-8 py-4 bg-sky-700 text-white rounded-full hover:bg-sky-800 transition-all"
             >
               E-Mail senden
