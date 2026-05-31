@@ -17,28 +17,28 @@ export default function Home() {
     Dr. med. Giancarlo Spano
   </h1>
   <p className="text-sm tracking-[0.1em] uppercase text-sky-700 mt-1 whitespace-nowrap">
-    Kardiologie & Kardiale Bildgebung
+    Cardiologia e Imaging cardiaco
   </p>
 </div>
 
           <nav className="hidden md:flex items-center gap-8 text-sm">
             <a href="#startseite" className="hover:text-sky-700 transition-colors">
-              Startseite
+              Home
             </a>
             <a href="#bildgebung" className="hover:text-sky-700 transition-colors">
-              Kardiale Bildgebung
+              Imaging cardiaco
             </a>
             <a href="#kardiologie" className="hover:text-sky-700 transition-colors">
-              Kardiologie
+              Cardiologia
             </a>
             <a href="#werdegang" className="hover:text-sky-700 transition-colors">
-              Über mich
+              Chi sono
             </a>
             <a href="#standorte" className="hover:text-sky-700 transition-colors">
-              Standorte
+              Sedi
             </a>
             <a href="#kontakt" className="hover:text-sky-700 transition-colors">
-              Kontakt
+              Contatto
             </a>
 
            <div className="flex items-center gap-2 text-sm">
@@ -81,23 +81,23 @@ export default function Home() {
   <div className="md:hidden bg-white border-t border-neutral-200 px-6 py-6 flex flex-col gap-6 text-lg text-slate-800">
 
     <a href="#startseite" onClick={() => setMenuOpen(false)}>
-      Startseite
+      Home
     </a>
 
     <a href="#bildgebung" onClick={() => setMenuOpen(false)}>
-      Kardiale Bildgebung
+      Imaging cardiaco
     </a>
 
     <a href="#kardiologie" onClick={() => setMenuOpen(false)}>
-      Kardiologie
+      Cardiologia
     </a>
 
     <a href="#werdegang" onClick={() => setMenuOpen(false)}>
-      Über mich
+      Chi sono
     </a>
 
     <a href="#kontakt" onClick={() => setMenuOpen(false)}>
-      Kontakt
+      Contatto
     </a>
 
   </div>
@@ -123,7 +123,7 @@ export default function Home() {
           </h2>
 
           <p className="text-xl md:text-2xl text-sky-700 mb-8 md:mb-10">
-            Facharzt für Kardiologie und Innere Medizin FMH
+            Specialista FMH in cardiologia e medicina interna generale
           </p>
 
           <div className="space-y-6 text-base md:text-lg leading-7 md:leading-8 text-neutral-700">
@@ -145,31 +145,31 @@ export default function Home() {
 <section id="sprachen" className="scroll-mt-40 py-16 md:py-20 bg-white">
   <div className="max-w-5xl mx-auto px-6">
     <h3 className="text-3xl md:text-4xl font-serif text-slate-900 mb-10 text-center">
-      Sprachkenntnisse
+      Competenze linguistiche
     </h3>
 
     <div className="grid md:grid-cols-2 gap-6">
       <div className="border border-neutral-200 rounded-2xl p-6">
         <p className="text-lg text-slate-700 leading-relaxed">
-          Deutsch 
+          Tedesco 
         </p>
       </div>
 
       <div className="border border-neutral-200 rounded-2xl p-6">
         <p className="text-lg text-slate-700 leading-relaxed">
-          Französisch 
+          Francese
         </p>
       </div>
 
       <div className="border border-neutral-200 rounded-2xl p-6">
         <p className="text-lg text-slate-700 leading-relaxed">
-          Italienisch 
+          Italiano 
         </p>
       </div>
 
       <div className="border border-neutral-200 rounded-2xl p-6">
         <p className="text-lg text-slate-700 leading-relaxed">
-          Englisch 
+          Inglese 
         </p>
       </div>
     </div>
@@ -183,7 +183,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-4xl mx-auto mb-20">
             <h3 className="text-3xl md:text-5xl font-serif text-slate-900 mb-6 md:mb-8">
-              Kardiale Bildgebung
+              Imaging cardiaco
             </h3>
 
             <p className="text-base md:text-lg leading-7 md:leading-8 text-neutral-700">
@@ -284,7 +284,7 @@ export default function Home() {
   <div className="max-w-5xl mx-auto px-6">
     <div className="text-center mb-16">
       <h3 className="text-3xl md:text-5xl font-serif text-slate-900 mb-6">
-        Beruflicher Werdegang
+        Esperienza professionale
       </h3>
 
       <p className="text-lg text-slate-600 leading-relaxed">
@@ -391,7 +391,7 @@ export default function Home() {
 
     <div className="text-center mb-16">
       <h3 className="text-3xl md:text-5xl font-serif text-slate-900 mb-6">
-        Studium und Weiterbildung
+        Formazione e titoli
       </h3>
     </div>
 
@@ -486,7 +486,7 @@ export default function Home() {
   <div className="max-w-4xl mx-auto px-6 text-center">
 
     <h3 className="text-3xl md:text-4xl font-serif text-slate-900 mb-10">
-      Mitgliedschaften
+      Affiliazioni professionali
     </h3>
 
     <div className="space-y-4 text-lg text-slate-700">
