@@ -12,14 +12,14 @@ export default function Home() {
       {/* Navigation */}
       <header className="border-b border-neutral-200 bg-white sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
-          <div>
-            <h1 className="text-3xl font-serif text-slate-900">
-              Dr. med. Giancarlo Spano
-            </h1>
-            <p className="text-sm tracking-[0.2em] uppercase text-sky-700 mt-1">
-              Kardiologie & Kardiale Bildgebung
-            </p>
-          </div>
+          <div className="flex-shrink-0">
+  <h1 className="text-3xl font-serif text-slate-900 whitespace-nowrap">
+    Dr. med. Giancarlo Spano
+  </h1>
+  <p className="text-sm tracking-[0.1em] uppercase text-sky-700 mt-1 whitespace-nowrap">
+    Kardiologie & Kardiale Bildgebung
+  </p>
+</div>
 
           <nav className="hidden md:flex items-center gap-8 text-sm">
             <a href="#startseite" className="hover:text-sky-700 transition-colors">
