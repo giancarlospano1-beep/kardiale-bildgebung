@@ -17,7 +17,7 @@ export default function Home() {
     Dr. med. Giancarlo Spano
   </h1>
   <p className="text-sm tracking-[0.1em] uppercase text-sky-700 mt-1 whitespace-nowrap">
-    Cardiologia e Imaging cardiaco
+    Cardiologia & Imaging Cardiaco
   </p>
 </div>
 
@@ -26,7 +26,7 @@ export default function Home() {
               Home
             </a>
             <a href="#bildgebung" className="hover:text-sky-700 transition-colors">
-              Imaging cardiaco
+              Imaging Cardiaco
             </a>
             <a href="#kardiologie" className="hover:text-sky-700 transition-colors">
               Cardiologia
@@ -35,7 +35,7 @@ export default function Home() {
               Chi sono
             </a>
             <a href="#standorte" className="hover:text-sky-700 transition-colors">
-              Sedi
+              Consultazioni
             </a>
             <a href="#kontakt" className="hover:text-sky-700 transition-colors">
               Contatto
@@ -85,7 +85,7 @@ export default function Home() {
     </a>
 
     <a href="#bildgebung" onClick={() => setMenuOpen(false)}>
-      Imaging cardiaco
+      Imaging Cardiaco
     </a>
 
     <a href="#kardiologie" onClick={() => setMenuOpen(false)}>
@@ -123,20 +123,20 @@ export default function Home() {
           </h2>
 
           <p className="text-xl md:text-2xl text-sky-700 mb-8 md:mb-10">
-            Specialista FMH in cardiologia e medicina interna generale
+            Specialista in cardiologia e medicina interna FMH
           </p>
 
           <div className="space-y-6 text-base md:text-lg leading-7 md:leading-8 text-neutral-700">
             <p>
-              Dr. med. Giancarlo Spano ist Facharzt für Kardiologie mit besonderem Schwerpunkt auf moderner kardialer Bildgebung.
+              Il Dr. med. Giancarlo Spano è specialista FMH in cardiologia, con una particolare competenza nell’ambito della moderna diagnostica cardiaca per immagini.
             </p>
 
             <p>
-              Seine klinische Tätigkeit umfasst die umfassende Betreuung kardiologischer Patientinnen und Patienten sowie die Durchführung und Befundung fortschrittlicher kardialer CT- und MRT-Untersuchungen.
+               La sua attività clinica comprende la presa in carico completa dei pazienti affetti da patologie cardiovascolari, nonché l’esecuzione e l’interpretazione di esami avanzati di tomografia computerizzata cardiaca (TAC cardiaca) e di risonanza magnetica cardiaca (RM cardiaca).
             </p>
 
             <p>
-              Die Verbindung von klinischer Kardiologie und hochpräziser Bildgebung steht dabei im Zentrum seiner Tätigkeit.
+              La combinazione tra cardiologia clinica moderna e diagnostica per immagini ad alta precisione costituisce il fondamento del suo approccio medico, consentendo diagnosi accurate e percorsi terapeutici personalizzati.
             </p>
           </div>
         </div>
@@ -145,25 +145,25 @@ export default function Home() {
 <section id="sprachen" className="scroll-mt-40 py-16 md:py-20 bg-white">
   <div className="max-w-5xl mx-auto px-6">
     <h3 className="text-3xl md:text-4xl font-serif text-slate-900 mb-10 text-center">
-      Competenze linguistiche
+      Lingue parlate
     </h3>
 
     <div className="grid md:grid-cols-2 gap-6">
       <div className="border border-neutral-200 rounded-2xl p-6">
         <p className="text-lg text-slate-700 leading-relaxed">
-          Tedesco 
+          Italiano
+        </p>
+      </div>
+
+      <div className="border border-neutral-200 rounded-2xl p-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          Tedesco
         </p>
       </div>
 
       <div className="border border-neutral-200 rounded-2xl p-6">
         <p className="text-lg text-slate-700 leading-relaxed">
           Francese
-        </p>
-      </div>
-
-      <div className="border border-neutral-200 rounded-2xl p-6">
-        <p className="text-lg text-slate-700 leading-relaxed">
-          Italiano 
         </p>
       </div>
 
@@ -183,15 +183,15 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-4xl mx-auto mb-20">
             <h3 className="text-3xl md:text-5xl font-serif text-slate-900 mb-6 md:mb-8">
-              Imaging cardiaco
+              Diagnostica cardiaca per immagini
             </h3>
 
             <p className="text-base md:text-lg leading-7 md:leading-8 text-neutral-700">
-              Die moderne kardiale Bildgebung ermöglicht eine präzise und nicht invasive Beurteilung verschiedener Herz- und Kreislauferkrankungen.
+               La moderna diagnostica cardiaca per immagini consente una valutazione precisa e non invasiva di numerose patologie cardiovascolari.
             </p>
 
             <p className="text-base md:text-lg leading-7 md:leading-8 text-neutral-700 mt-6">
-              Die Untersuchungen werden persönlich durch Dr. med. Giancarlo Spano durchgeführt am Spital Thun sowie am Hôpital neuchâtelois in Neuchâtel in enger Zusammenarbeit mit den jeweiligen radiologischen Instituten.
+               Gli esami vengono eseguiti personalmente dal Dr. med. Giancarlo Spano presso l’Ospedale di Thun e l’Hôpital neuchâtelois di Neuchâtel, in stretta collaborazione con i rispettivi servizi di radiologia.
             </p>
 
             <p className="text-base md:text-lg leading-7 md:leading-8 text-neutral-700 mt-6">
@@ -202,36 +202,36 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-20">
             <div className="bg-white p-6 md:p-6 md:p-10 rounded-3xl shadow-sm border border-neutral-100">
               <h4 className="text-2xl md:text-3xl font-serif text-sky-700 mb-6 md:mb-8">
-                Kardiale CT
+                TC cardiaca
               </h4>
 
               <p className="text-neutral-700 leading-8 mb-6">
-                Die kardiale Computertomographie ermöglicht eine hochpräzise Darstellung der Herzkranzgefässe.
+                La tomografia computerizzata cardiaca (TC cardiaca) consente una visualizzazione altamente precisa delle arterie coronarie.
               </p>
 
               <ul className="space-y-3 text-neutral-700 leading-7 list-disc pl-5">
-                <li>Ausschluss relevanter Koronarverengungen</li>
-                <li>Beurteilung koronarer Kalkablagerungen</li>
-                <li>Nicht invasive Abklärung von Brustschmerzen</li>
-                <li>Hohe diagnostische Genauigkeit</li>
+                <li>Esclusione di stenosi coronariche significative</li>
+                <li>Valutazione delle calcificazioni coronariche</li>
+                <li>Valutazione non invasiva del dolore toracico</li>
+                <li>Alta precisione diagnostica</li>
               </ul>
             </div>
 
             <div className="bg-white p-6 md:p-6 md:p-10 rounded-3xl shadow-sm border border-neutral-100">
               <h4 className="text-2xl md:text-3xl font-serif text-sky-700 mb-6 md:mb-8">
-                Kardiale MRT
+                RM cardiaca
               </h4>
 
               <p className="text-neutral-700 leading-8 mb-6">
-                Die kardiale Magnetresonanztomographie erlaubt eine detaillierte Analyse der Herzfunktion und des Herzmuskels.
+                 La risonanza magnetica cardiaca (RM cardiaca) consente un’analisi dettagliata della funzione cardiaca e del muscolo cardiaco.
               </p>
 
               <ul className="space-y-3 text-neutral-700 leading-7 list-disc pl-5">
-                <li>Kardiomyopathien</li>
-                <li>Myokarditis</li>
-                <li>Herzinsuffizienz</li>
-                <li>Keine Strahlenbelastung</li>
-                <li>Präzise funktionelle Analyse</li>
+                <li>Cardiomiopatie</li>
+                <li>Miocardite</li>
+                <li>Insufficienza cardiaca</li>
+                <li>Assenza di esposizione alle radiazioni ionizzanti</li>
+                <li>Analisi funzionale accurata</li>
               </ul>
             </div>
           </div>
@@ -243,28 +243,29 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-4xl mx-auto mb-20">
             <h3 className="text-3xl md:text-5xl font-serif text-slate-900 mb-6 md:mb-8">
-              Kardiologie in Thun
+              Cardiologia a Thun
             </h3>
 
             <p className="text-base md:text-lg leading-7 md:leading-8 text-neutral-700">
-              Im Kardiologie Aarezentrum in Thun bietet Dr. med. Giancarlo Spano ein breites Spektrum moderner kardiologischer Diagnostik und Betreuung an.
+               Presso lo studio Kardiologie Aarezentrum di Thun, il Dr.med Giancarlo Spano offre un'ampia gamma di servizi di cardiologia moderna, che comprendono la diagnosi, la prevenzione e il follow-up delle malattie cardiovascolari.
+
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             {[
-              'Konsiliarische Beratungen',
-              'Check-up und Prävention',
-              'Verlaufskontrollen bei Herzerkrankungen',
-              'Nachkontrollen nach Herzoperationen',
-              'Präoperative kardiologische Abklärungen',
-              'Echokardiographie inkl. Doppler und Strain',
-              'Transösophageale Echokardiographie',
-              'Ruhe- und Belastungs-EKG',
-              'Abklärung von Herzrhythmusstörungen',
-              '24-Stunden-Blutdruckmessung',
-              'Kontrolle von Schrittmachern und ICD',
-              'Herzinsuffizienz-Sprechstunde/Beratung',
+              'Consultazione cardiologiche specialistiche',
+              'Check-up cardiovascolare e prevenzione',
+              'Controlli periodici delle patologie cardiache',
+              'Follow-up dopo interventi cardiochirurgici o procedure interventistiche',
+              'Valutazioni cardiologiche preoperatorie',
+              'Ecocardiografia con Doppler e analisi dello strain, 3D',
+              'Ecocardiografia transesofagea',
+              'ECG a riposo e sotto sforzo',
+              'Valutazione delle aritmie cardiache',
+              'Monitoraggio della pressione arteriosa nelle 24 ore',
+              'Controllo di pacemaker e defibrillatori impiantabili (ICD)',
+              'Ambulatorio e consulenza per l’insufficienza cardiaca',
             ].map((item) => (
               <div
                 key={item}
@@ -284,12 +285,11 @@ export default function Home() {
   <div className="max-w-5xl mx-auto px-6">
     <div className="text-center mb-16">
       <h3 className="text-3xl md:text-5xl font-serif text-slate-900 mb-6">
-        Esperienza professionale
+         Percorso professionale
       </h3>
 
       <p className="text-lg text-slate-600 leading-relaxed">
-        Klinische Tätigkeit und Spezialisierung im Bereich der allgemeinen
-        Kardiologie und kardialen Bildgebung.
+        Attività clinica e specializzazione nell’ambito della cardiologia generale e della diagnostica cardiaca per immagini.
       </p>
     </div>
 
@@ -298,84 +298,84 @@ export default function Home() {
       <div className="border-l-2 border-red-700 pl-6">
         <p className="text-red-700 font-semibold">seit 2026</p>
         <p className="text-slate-800 leading-relaxed">
-          Herzspezialist in der Praxis Kardiologie Aarezentrum, Thun
+          Cardiologo nello studio Kardiologie Aarezentrum in Thun, svizzera
         </p>
       </div>
 
       <div className="border-l-2 border-red-700 pl-6">
         <p className="text-red-700 font-semibold">seit 2024</p>
         <p className="text-slate-800 leading-relaxed">
-          Leitender Arzt Kardiologie, Schwerpunkt Kardiale Bildgebung,
-          Spital STS AG Thun, Schweiz
+          Medico dirigente di cardiologia, responsabile della diagnostica cardiaca per immagini,
+    Spital STS AG Thun, Svizzera
         </p>
       </div>
 
       <div className="border-l-2 border-red-700 pl-6">
         <p className="text-red-700 font-semibold">seit 2024</p>
         <p className="text-slate-800 leading-relaxed">
-          Leitender Arzt Kardiologie, Kantonsspital Neuenburg, Schweiz
+          Medico dirigente di cardiologia, Ospedale Cantonale di Neuchâtel, Svizzera
         </p>
       </div>
 
       <div className="border-l-2 border-red-700 pl-6">
         <p className="text-red-700 font-semibold">2023 – 2026</p>
         <p className="text-slate-800 leading-relaxed">
-          Oberarzt, Universitätsklinik für Kardiologie,
-          Inselspital Bern, Schweiz
+          Medico capoclinica, Clinica universitaria di cardiologia,
+    Inselspital Berna, Svizzera
         </p>
       </div>
 
       <div className="border-l-2 border-red-700 pl-6">
         <p className="text-red-700 font-semibold">2021 – 2023</p>
         <p className="text-slate-800 leading-relaxed">
-          Oberarzt Kardiologie, Schwerpunkt Kardiale Bildgebung,
-          Spital STS AG Thun, Schweiz
+          Medico capoclinica di cardiologia, responsabile della diagnostica cardiaca per immagini,
+    Spital STS AG Thun, Svizzera
         </p>
       </div>
 
       <div className="border-l-2 border-red-700 pl-6">
         <p className="text-red-700 font-semibold">2020 – 2023</p>
         <p className="text-slate-800 leading-relaxed">
-          Stv. Oberarzt, Universitätsklinik für Kardiologie,
-          Inselspital Bern, Schweiz
+          Vice medico capoclinica, Clinica universitaria di cardiologia,
+    Inselspital Berna, Svizzera
         </p>
       </div>
 
       <div className="pt-6">
         <h4 className="text-2xl font-serif text-slate-900 mb-6">
-          Assistenzarzt
+          Medico assistente
         </h4>
       </div>
 
       <div className="border-l-2 border-red-700 pl-6">
         <p className="text-red-700 font-semibold">2017 – 2020</p>
         <p className="text-slate-800 leading-relaxed">
-          Universitätsklinik für Kardiologie,
-          Inselspital Bern, Schweiz
+          Clinica universitaria di cardiologia,
+    Inselspital Berna, Svizzera
         </p>
       </div>
 
       <div className="border-l-2 border-red-700 pl-6">
         <p className="text-red-700 font-semibold">2015 – 2017</p>
         <p className="text-slate-800 leading-relaxed">
-          Allgemeine Innere Medizin,
-          Universitätsspital CHUV Lausanne, Schweiz
+          Medicina interna generale,
+    Ospedale universitario CHUV Losanna, Svizzera
         </p>
       </div>
 
       <div className="border-l-2 border-red-700 pl-6">
         <p className="text-red-700 font-semibold">2013 – 2015</p>
         <p className="text-slate-800 leading-relaxed">
-          Allgemeine Innere Medizin,
-          Ensemble hospitalier de la Côte, Morges, Schweiz
+          Medicina interna generale,
+    Ensemble Hospitalier de la Côte, Morges, Svizzera
         </p>
       </div>
 
       <div className="border-l-2 border-red-700 pl-6">
         <p className="text-red-700 font-semibold">2013</p>
         <p className="text-slate-800 leading-relaxed">
-          Allgemeine Innere Medizin,
-          Kantonspital Jura, Delémont, Schweiz
+          Medicina interna generale,
+    Ospedale Cantonale del Giura, Delémont, Svizzera
         </p>
       </div>
     </div>
@@ -391,7 +391,7 @@ export default function Home() {
 
     <div className="text-center mb-16">
       <h3 className="text-3xl md:text-5xl font-serif text-slate-900 mb-6">
-        Formazione e titoli
+        Formazione e specializzazione
       </h3>
     </div>
 
@@ -420,8 +420,8 @@ export default function Home() {
           2023
         </span>
         <p className="text-slate-700">
-          Doktor der Medizin, Medizinische Fakultät,
-          Universität Bern, Schweiz
+          Dottore in medicina, Facoltà di Medicina,
+    Università di Berna, Svizzera
         </p>
       </div>
 
@@ -430,8 +430,8 @@ export default function Home() {
           2023
         </span>
         <p className="text-slate-700">
-          Allgemeine Innere Medizin,
-          eidgenössischer Facharzttitel (FMH), Schweiz
+          Medicina interna generale,
+    titolo federale di medico specialista (FMH), Svizzera
         </p>
       </div>
 
@@ -440,8 +440,8 @@ export default function Home() {
           2021
         </span>
         <p className="text-slate-700">
-          Kardiologie,
-          eidgenössischer Facharzttitel (FMH), Schweiz
+          Cardiologia,
+    titolo federale di medico specialista (FMH), Svizzera
         </p>
       </div>
 
@@ -450,7 +450,7 @@ export default function Home() {
           2012
         </span>
         <p className="text-slate-700">
-          Eidgenössisches Diplom Humanmedizin, Schweiz
+          Diploma federale in medicina umana, Svizzera
         </p>
       </div>
 
@@ -459,8 +459,8 @@ export default function Home() {
           2011
         </span>
         <p className="text-slate-700">
-          Master an der Universität Lausanne,
-          Fachbereich Medizin, Schweiz
+          Master presso l’Università di Losanna,
+    Facoltà di Medicina, Svizzera
         </p>
       </div>
 
@@ -469,8 +469,8 @@ export default function Home() {
           2009
         </span>
         <p className="text-slate-700">
-          Bachelor an der Universität Lausanne,
-          Fachbereich Medizin, Schweiz
+          Bachelor presso l’Università di Losanna,
+    Facoltà di Medicina, Svizzera
         </p>
       </div>
 
@@ -486,7 +486,7 @@ export default function Home() {
   <div className="max-w-4xl mx-auto px-6 text-center">
 
     <h3 className="text-3xl md:text-4xl font-serif text-slate-900 mb-10">
-      Affiliazioni professionali
+      Affiliazioni
     </h3>
 
     <div className="space-y-4 text-lg text-slate-700">
@@ -501,7 +501,7 @@ export default function Home() {
       <section id="standorte" className="scroll-mt-18 bg-neutral-50 py-16 md:py-24 border-y border-neutral-200">
         <div className="max-w-7xl mx-auto px-6">
           <h3 className="text-5xl font-serif text-center text-slate-900 mb-20">
-            Standorte
+            Consultazioni
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10">
@@ -513,16 +513,16 @@ export default function Home() {
             </div>
 
             <div className="bg-white p-6 md:p-10 rounded-3xl border border-neutral-100 shadow-sm">
-              <h4 className="text-xl md:text-2xl font-serif text-slate-900 mb-4">Spital Thun</h4>
+              <h4 className="text-xl md:text-2xl font-serif text-slate-900 mb-4">Ospedale Thun</h4>
               <p className="text-neutral-700 leading-7">
-                Kardiale CT- und MRT-Bildgebung
+                Tomografia computerizzata e risonanza magnetica cardiaca
               </p>
             </div>
 
             <div className="bg-white p-6 md:p-10 rounded-3xl border border-neutral-100 shadow-sm">
               <h4 className="text-xl md:text-2xl font-serif text-slate-900 mb-4">Neuchâtel-RHNe</h4>
               <p className="text-neutral-700 leading-7">
-                Kardiale CT- und MRT-Bildgebung
+                Tomografia computerizzata e risonanza magnetica cardiaca
               </p>
             </div>
           </div>
@@ -533,21 +533,21 @@ export default function Home() {
       <section id="kontakt" className="scroll-mt-32 py-16 md:py-24"> 
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h3 className="text-5xl font-serif text-slate-900 mb-10">
-            Kontakt
+            Contatto
           </h3>
 
           <p className="text-base md:text-lg leading-7 md:leading-8 text-neutral-700 mb-10">
-            Für Terminvereinbarungen oder weitere Informationen freuen wir uns über Ihre Kontaktaufnahme.
+            Per fissare un appuntamento o ricevere ulteriori informazioni, non esitate a contattarci.
           </p>
 <p className="text-lg text-neutral-800 mb-10">
-  Telefon: +41 33 223 04 48
+  Telefono: +41 33 223 04 48
 </p>
           <div className="flex flex-col md:flex-row gap-4 md:gap-6 justify-center">
             <a
               href="mailto:giancarlo.spano@hin.ch"
               className="px-6 md:px-8 py-4 bg-sky-700 text-white rounded-full hover:bg-sky-800 transition-all"
             >
-              E-Mail senden
+              Inviare E-Mail
             </a>
 
             <a
@@ -555,7 +555,7 @@ export default function Home() {
               target="_blank"
               className="px-6 md:px-8 py-4 border border-sky-700 text-sky-700 rounded-full hover:bg-sky-700 hover:text-white transition-all"
             >
-              Kardiologie Aarezentrum besuchen
+              Visita il Kardiologie Aarezentrum
             </a>
           </div>
         </div>
@@ -567,8 +567,8 @@ export default function Home() {
           <p>© 2026 Dr. med. Giancarlo Spano</p>
 
           <div className="flex gap-6">
-            <a href="#">Impressum</a>
-            <a href="#">Datenschutz</a>
+            <a href="#">Note legali</a>
+            <a href="#">Protezione dei dati</a>
           </div>
         </div>
       </footer>
