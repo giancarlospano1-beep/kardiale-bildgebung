@@ -99,7 +99,13 @@ export default function Home() {
     <a href="#kontakt" onClick={() => setMenuOpen(false)}>
       Kontakt
     </a>
-
+<div className="border-t border-neutral-200 pt-4 flex justify-center items-center gap-3 text-base">
+  <a href="/" onClick={() => setMenuOpen(false)}>DE</a>
+  <span className="text-neutral-300">|</span>
+  <a href="/fr" onClick={() => setMenuOpen(false)}>FR</a>
+  <span className="text-neutral-300">|</span>
+  <a href="/it" onClick={() => setMenuOpen(false)}>IT</a>
+</div>
   </div>
 )}
       </header>
